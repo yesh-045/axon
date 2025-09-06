@@ -3,7 +3,7 @@
 from dataclasses import dataclass, field
 from typing import Any, Dict, Optional
 
-from axon.constants import MODELS
+from .constants import MODELS
 
 
 @dataclass

@@ -3,7 +3,7 @@ import subprocess
 
 from pydantic_ai import ModelRetry, RunContext
 
-from axon.deps import ToolDeps
+from axon.core.deps import ToolDeps
 
 
 async def git_add(ctx: RunContext[ToolDeps], files: str) -> str:

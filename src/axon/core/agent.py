@@ -10,11 +10,11 @@ from pydantic_ai.messages import (
 )
 
 from axon import ui
-from axon.deps import ToolDeps
+from axon.core.deps import ToolDeps
 from axon.mcp import MCPAgent, load_mcp_servers
-from axon.session import session
+from axon.core.session import session
 from axon.tools import TOOLS
-from axon.usage import usage_tracker
+from axon.core.usage import usage_tracker
 from axon.utils.error import ErrorContext
 
 log = logging.getLogger(__name__)

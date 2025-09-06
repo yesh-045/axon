@@ -1,7 +1,7 @@
 """Handle /yolo command."""
 
 from axon import ui
-from axon.session import session
+from axon.core.session import session
 
 
 async def handle_yolo():

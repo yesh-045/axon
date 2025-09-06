@@ -3,7 +3,7 @@ import asyncio
 from pydantic_ai import ModelRetry, RunContext
 
 from axon import ui
-from axon.deps import ToolDeps
+from axon.core.deps import ToolDeps
 
 
 async def update_file(

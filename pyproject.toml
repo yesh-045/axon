@@ -9,9 +9,7 @@ keywords = ["cli", "agent", "development", "automation"]
 readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
-authors = [
-    { name = "Gavin Vickery", email = "gavin@geekforbrains.com" },
-]
+version = "0.1"
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
@@ -43,9 +41,7 @@ dev = [
     "pytest-mock",
 ]
 
-[project.urls]
-Homepage = "https://github.com/geekforbrains/axon-cli"
-Repository = "https://github.com/geekforbrains/axon-cli"
+
 
 [tool.black]
 line-length = 100

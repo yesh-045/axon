@@ -5,9 +5,9 @@ import logging
 from rich.table import Table
 
 from axon import ui
-from axon.config import update_config_file
-from axon.constants import MODELS
-from axon.session import session
+from axon.core.config import update_config_file
+from axon.core.constants import MODELS
+from axon.core.session import session
 from axon.ui.colors import colors
 
 log = logging.getLogger(__name__)

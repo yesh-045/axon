@@ -2,7 +2,7 @@ import logging
 
 from pydantic_ai import RunContext
 
-from axon.deps import ToolDeps
+from axon.core.deps import ToolDeps
 
 log = logging.getLogger(__name__)
 

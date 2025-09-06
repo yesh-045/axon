@@ -11,7 +11,7 @@ from pydantic_ai.mcp import MCPServerStdio
 from pydantic_ai.tools import RunContext
 
 from axon import ui
-from axon.config import (
+from axon.core.config import (
     ConfigError,
     parse_mcp_servers,
     read_config_file,

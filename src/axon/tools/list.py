@@ -6,7 +6,7 @@ from typing import Dict, List, Tuple
 
 from pydantic_ai import RunContext
 
-from axon.deps import ToolDeps
+from axon.core.deps import ToolDeps
 
 from .common import EXCLUDE_DIRS
 

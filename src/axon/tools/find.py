@@ -8,7 +8,7 @@ from typing import List, Optional, Set
 
 from pydantic_ai import RunContext
 
-from axon.deps import ToolDeps
+from axon.core.deps import ToolDeps
 from axon.tools.common import BINARY_EXTENSIONS, EXCLUDE_DIRS
 
 

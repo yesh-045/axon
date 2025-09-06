@@ -6,12 +6,12 @@ import subprocess
 import sys
 
 from axon import ui
-from axon.agent import process_request
+from .agent import process_request
 from axon.commands import handle_command
 from axon.mcp import load_mcp_servers
-from axon.messages import MessageHistory
-from axon.session import session
-from axon.usage import usage_tracker
+from .messages import MessageHistory
+from .session import session
+from .usage import usage_tracker
 from axon.utils.error import ErrorContext
 from axon.utils.input import create_multiline_prompt_session, get_multiline_input
 

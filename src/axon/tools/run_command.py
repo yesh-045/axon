@@ -4,8 +4,8 @@ import subprocess
 from pydantic_ai import RunContext
 
 from axon import ui
-from axon.deps import ToolDeps
-from axon.session import session
+from axon.core.deps import ToolDeps
+from axon.core.session import session
 from axon.utils.command import extract_commands, is_command_allowed
 
 

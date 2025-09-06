@@ -6,7 +6,7 @@ import typer
 from rich.console import Console
 
 from axon import ui
-from axon.config import (
+from axon.core.config import (
     ConfigError,
     ConfigValidationError,
     config_exists,
@@ -14,10 +14,10 @@ from axon.config import (
     set_env_vars,
     validate_config_structure,
 )
-from axon.constants import APP_NAME
-from axon.repl import Repl
-from axon.session import session
-from axon.setup import run_setup
+from axon.core.constants import APP_NAME
+from axon.core.repl import Repl
+from axon.core.session import session
+from axon.core.setup import run_setup
 from axon.utils.guide import load_guide
 from axon.utils.logger import setup_logging
 

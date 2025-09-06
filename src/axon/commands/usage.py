@@ -3,7 +3,7 @@
 from rich.text import Text
 
 from axon import ui
-from axon.usage import usage_tracker
+from axon.core.usage import usage_tracker
 
 
 async def handle_usage():
